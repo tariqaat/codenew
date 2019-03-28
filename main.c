@@ -72,8 +72,8 @@ assert(calculator(4,-6,-2)==3);
 assert(calculator(4,-6,2)==-3);
  printf("\n division of negative and positive number ok\n");
 
-  printf("\n division of positive number by zero Condition failed\n");
-assert(calculator(4,2,0)==2);
+
+assert(calculator(4,2,0)==2 && "\n division of positive number by zero Condition failed\n");
 
 }
 
